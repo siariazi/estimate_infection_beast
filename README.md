@@ -1,7 +1,7 @@
 # estimate_infection_beast
 Files for generating an epidemic with a SIR model, making a tree(s), converting tree to fasta file and use it in BEAST to estimate the infection rate with phylodynamic BD-SIR. \
 stochastic_SIR_231208.R: a R file to generate trees in a loop \
-Iqtree code: \ \
+Iqtree code: \ 
 cd /Users/siavashriazi/Desktop/SFU/iqtree-2.2.2.6-MacOSX \
 bin/iqtree2 --alisim 15_tree_1 -m JC -t 15_tree_1.nwk \
 \
