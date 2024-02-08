@@ -20,4 +20,5 @@ xml_modify.R: a script that after loading the fasta file, modify the .xml file t
 base_xml.R: a script to go update a template .xml file with data and from a fasta file, this script doesn't remove tree operators. \
 xml_all_modify: a combination of xml_modify.R and base_xml.R to update a template .xml file with data from a fasta file and remove the tree operators to keep the tree constant. \
 plot_BDSIR.R: a script from BEAST2 website that analysis the result of a .log file from running phylodynamic BD-SIR pakcage. \
-220612_convert_dism_newick.R: file from Yexuan to convert a distance matrix to a newick tree. 
+220612_convert_dism_newick.R: file from Yexuan to convert a distance matrix to a newick tree. \
+OOPidemic_sim.R: a new R code based on OOPidemic package to simulate an epidemic. The result is used in beast to estimate R0 (or infection rate). 
